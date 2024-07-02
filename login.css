@@ -1,0 +1,1196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.rightparent {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+Q
+.menuimg {
+    display: none;
+}
+
+header {
+    background-color: rgba(32, 32, 32, 1);
+    height: 160px;
+        
+}
+.frame {
+    
+width: 187px;
+}
+.ourparent {
+    
+    height: 100%; 
+    display: flex;
+    align-items: center;
+
+}
+.logo {
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: end;
+    display: flex;
+    width: 80%;
+}
+.bordertop {
+    display: flex;
+    border-top:solid 1px;
+    border-color: rgba(255, 255, 255, 1);
+    color: white;
+}
+
+.ilclass ul  {
+    font-family: 'Poppins';
+    padding-top: 13px;
+    list-style-type: none;
+    gap: 100px;
+    display: flex;
+}
+
+.rightparent span {
+    color: white;
+}
+
+
+.rightpicture img{
+    width: 33px;
+    height: 33px;
+    cursor: pointer;
+}
+
+main {
+    background-color: #3B3738;
+    height: auto;
+    width: 100%;
+    padding: 100px 0 0;
+}
+
+.parent {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    color: white;
+    margin-left: 160px;
+}
+
+.span {
+    font-family: 'Poppins';
+    width: 100%;
+    align-items: end;
+    display: flex;
+}
+
+.firstinputparent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.margin {
+    display: flex;
+    gap: 21px;
+    justify-content: end;
+    width: 16%;
+}
+.firstinput input {
+    padding: 20px;
+    color: white;
+    max-width: 580px;
+    height: 56px;
+    border-radius: 32px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.35);
+    border:none
+}
+
+.secondinputparent {
+    justify-content: space-between;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    height: 48px;
+    display: flex;
+    align-items: end;
+}
+
+.second {
+    width: 100%;
+}
+.firstinputspan  {
+    display: flex;
+    height: 58px;
+    align-items: end;
+}
+.firstinputparent span {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.icon img {
+    width:25px;
+    height: 25px;
+}
+.icon {
+    cursor: pointer;
+    height: 30%;
+    align-items: center;
+    display: flex;
+    justify-content: end;
+}
+
+.second input {
+    height: 56px;
+    border-radius: 32px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.35);
+    border:none;
+    max-width: 580px;
+    padding: 20px;
+    color: white;
+}
+
+.firstinput {
+
+width: 100%;
+}
+.parentpic {
+    gap: 10px;
+    display: flex;
+}
+.secondinput {
+    
+width: 100%;
+}
+
+form {
+    width: 32%;
+}
+.eye img {
+    width: 24px;
+    height: 24px;
+    display: none;
+}
+.checkbox {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    height: 32px;
+}
+
+label {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.lastspan  p {
+    gap: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    display: flex;
+    align-items: end;
+    height: 52px;
+}
+
+.lastspan span {
+    gap: 4px;
+    display: flex;
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgba(153, 27, 31, 1);
+}
+
+.button {
+    align-items: end;
+    display: flex;
+    height: 72px;
+    font-family: 'Poppins';
+   
+
+}
+
+
+.button button {
+    border: none;
+    background-color: rgba(153, 27, 31, 1);
+    width: 100%;
+    max-width: 580px;
+    height: 64px;
+    border-radius: 32px ;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    text-align: center;
+    color: white;
+}
+
+
+.button button:hover{
+    cursor: pointer;
+    background-color: rgb(201, 27, 27);
+}
+
+.forgetpass {
+    text-decoration: underline;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(153, 27, 31, 1);
+
+}
+
+.forgetpass span {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.forgetpass span:hover {
+    cursor: pointer;
+    color: red;
+
+}
+.signup {
+    gap: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup p{
+    gap: 9px;
+    display: flex;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    }
+
+.signup span {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgba(153, 27, 31, 1);
+}
+
+.signup span:hover {
+    cursor: pointer;
+    color: red;
+
+}
+.lastspan span:hover {
+    cursor: pointer;
+    color: red;
+
+}
+
+.ilclass ul li:hover {
+    cursor: pointer;
+    color: orangered;
+}
+
+.rightparent span:hover {
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.map {
+display: flex;
+
+}
+
+.car {
+    position: absolute;
+    right: 284px;
+    top: 431px;
+    width: 400px;
+}
+
+.mapjr img {
+    width: 100%;
+}
+
+
+
+.iconhideparent{
+    height: 58px;
+    justify-content: space-between;
+    font-size: 20px;
+    gap: 15px;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.mapjr {
+    opacity: 30%;
+    position: relative;
+    Opacity:50%;
+    mix-blend-mode:Luminosity
+}
+
+footer {
+    background-color: #991B1F;
+    height: auto;
+    width: 100%;
+}
+.emailform input {
+    padding: 17px;
+    border: none;
+    border-top-left-radius: 7px;
+    width: 65%;
+    border-bottom-left-radius: 7px;
+
+}
+
+.emailform {
+    align-items: center;
+    padding-top: 92px;
+    gap: 43px;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+.emailform button {
+    border: none;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    height: 52px;
+    color: rgba(153, 27, 31, 1);
+    width: 140px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    font-size: 16px;
+
+} 
+::placeholder {
+    color: rgba(153, 27, 31, 1);
+    font-family: Poppins;
+}
+
+.firstdiv {
+    height: 100%;
+    width: 100%;
+    max-width: 408px;
+    display: flex;
+}
+.secondform {
+    width: 100%;
+    height: 233px;
+}
+
+.parentsecond {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: rgba(255, 255, 255, 1);
+    height: 60px;
+}
+
+.seconddiv {
+    font-family: Poppins;
+    color: rgba(255, 255, 255, 1);
+    width: 451px;
+}
+
+.contactspan {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.contact {
+    background: aliceblue;
+    width: 96px;
+    height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact img {
+    width: 32px;
+    height: 32px;
+}
+
+.parentfirst {
+    width: 330px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: white;
+    height: 60px;
+}
+.contactspans {
+    justify-content: end;
+    flex-direction: column;
+    display: flex;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+}
+.allparent {
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 77%;
+    gap: 132px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contactpsanparent {
+    
+    display: flex;
+    gap: 24px;
+}
+
+.firstallarent {
+display: flex;
+flex-direction: column;
+}
+
+.spans  {
+    display: flex;
+    flex-direction: column;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: white;
+
+}
+.businesparent {
+    display: flex;
+    gap: 16px;
+}
+.display {
+    height: 43px;
+    display: flex;
+    gap: 79px;
+}
+.display2 {
+    display: flex;
+    gap: 102px;
+}
+.threeparent {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: white;
+    height: 60px;
+
+
+}
+
+.height {
+    height: 38px;
+}
+
+.docum {
+    display: flex;
+    flex-direction: column;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: white;
+}
+
+.galery {
+    display: flex;
+    flex-direction: column;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: white;
+}
+
+.on {
+    display: flex;
+    gap: 24px;
+}
+
+.vectors {
+    padding-top: 50px;
+    padding-bottom: 24px;
+    gap: 21px;
+    margin: 0 auto;
+    display: flex;
+    height: REVERT;
+    border-bottom: 2px solid;
+    width: 77%;
+    border-color: white;
+}
+
+.vectors img {
+    cursor: pointer;
+}
+
+.last {
+    align-items: center;
+    height: 61px;
+    justify-content: center;
+    display: flex;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.07px;
+    color: white;
+}
+
+.contactspans span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.on span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(167, 147, 147);
+}
+
+
+.parentfirst {
+    display: flex;
+}
+
+.menuimg {
+    display: none;
+}
+
+.rightpicture {
+    display: flex;
+}
+
+.container {
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+
+  }
+  
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: rgba(153, 27, 31, 1);
+    ;
+  }
+  
+  .container input.white:checked ~ .checkmark:after {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+  }
+  .container input.black:checked ~ .checkmark:after {
+    border: solid #000;
+    border-width: 0 3px 3px 0;
+  }
+  .container input.red:checked ~ .checkmark:after {
+    border: solid  rgba(59, 55, 56, 1);
+    ;
+    border-width: 0 3px 3px 0;
+  }
+  .container input.green:checked ~ .checkmark:after {
+    border: solid #1f4f12;
+    border-width: 0 3px 3px 0;
+  }
+@media  (max-width: 1850px){
+ 
+    .ilclass ul {
+     gap: 68px;
+    }
+     .usa {
+    left: 232px;
+    top: 22px;
+    }
+    .mapjr img {
+        width: 700px;
+    }
+
+    .car img {
+        width: 400px;
+    }
+
+    .car {
+        top: 334px;
+        right: 33px;
+    }
+ }
+ 
+ @media screen and (max-width:1720px) {
+    .lastspan p {
+        font-size: 12px;
+    }
+
+    .span {
+        font-size: 20px;
+    }
+    .firstinputparent span {
+        font-size: 14px;
+    }
+    .secondinputparent {
+        font-size: 14px;
+    }
+    .checkspan {
+        font-size: 14px;
+    }
+    .forgetpass span {
+        font-size: 14px;
+    }
+    .signup p {
+
+        font-size: 14px;
+    }
+    .iconhideparent {
+        font-size: 15px;
+    }
+ }
+
+ @media screen and (max-width:1610px){
+   
+    .hide {
+        font-size: 12px;
+    }
+    .lastspan p {
+        font-size: 11px;
+    }
+
+    .parent {
+        margin-left: 250px;
+    }
+ }
+
+
+@media screen and (max-width:1597px){
+    
+     .parent {
+        margin-left: 85px;
+    }
+    .logo {
+        width: 87%;
+    }
+    .ilclass ul {
+    font-size: 14px;
+    gap: 40px;
+    }
+    .ilclass ul {
+        .container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+          }
+          
+          /* Hide the browser's default checkbox */
+          .container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            height: 0;
+            width: 0;
+          }
+          
+          /* Create a custom checkbox */
+          .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #eee;
+          }
+          
+          /* On mouse-over, add a grey background color */
+          .container:hover input ~ .checkmark {
+            background-color: #ccc;
+          }
+          
+          
+          
+          /* Create the checkmark/indicator (hidden when not checked) */
+          .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+          }
+          
+          /* Show the checkmark when checked */
+          .container input:checked ~ .checkmark:after {
+            display: block;
+          }
+          
+          /* Style the checkmark/indicator */
+          .container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid white;
+            border-width: 0 3px 3px 0;
+            -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+          }
+          
+          /* When the checkbox is checked, add a blue background */
+          .container input:checked ~ .checkmark {
+            background-color: #2196F3;
+          }
+          
+          .container input.white:checked ~ .checkmark:after {
+            border: solid white;
+            border-width: 0 3px 3px 0;
+          }
+          .container input.black:checked ~ .checkmark:after {
+            border: solid #000;
+            border-width: 0 3px 3px 0;
+          }
+          .container input.red:checked ~ .checkmark:after {
+            border: solid #cb1a1a;
+            border-width: 0 3px 3px 0;
+          }
+          .container input.green:checked ~ .checkmark:after {
+            border: solid #1f4f12;
+            border-width: 0 3px 3px 0;
+          }
+          .container input.yellow:checked ~ .checkmark:after {
+            border: solid #c6c253;
+            border-width: 0 3px 3px 0;
+          }
+        padding-top: 5px;
+    }
+ 
+    .span {
+        font-size: 18px;
+        padding-top: 20px;
+    }
+    .firstinputparent span {
+        font-size: 13px;
+    }
+    .secondinputparent {
+        font-size: 13px;
+    }
+    .checkspan {
+        font-size: 13px;
+    }   
+    .forgetpass span {
+        font-size: 13px;
+    }
+    .signup p {
+
+        font-size: 13px;
+    }
+    
+}
+ 
+@media screen and (max-width:1450px){
+    .lastspan p {
+        font-size: 10px;
+    }
+
+    .lastspan {
+        width: 100%;
+    } 
+    .frame {
+        width: 160px;
+    }
+}
+@media screen and (max-width:1300px) {
+   
+    .usa {
+        left: 135px;
+    }
+    
+    .logo img {
+        height: 50px;
+    }
+
+
+    .rightparent span {
+        font-size: 16px;
+    }
+
+    .rightpicture img {
+        width: 33px;
+        height: 33px;
+
+    }
+
+    .frame {
+        width: 140px;
+    }
+}
+
+@media screen and (max-width:1289px) {
+    .lastspan p {
+        font-size: 9px;
+    }
+    main {
+        padding-bottom: 80px;
+    }
+}
+ 
+@media screen and (max-width:1200px) {
+    
+    .button button {
+        max-width: 500px;
+    }
+    .mapjr {
+        display: none;
+    }
+    .firstinput input {
+    max-width: 500px;
+    }
+    .second input {
+        max-width: 500px;
+    }
+    .car {
+        display: none;
+    }
+
+    .parent {
+        margin-left: 0px;
+        justify-content: center;
+    }
+
+    form {
+        width: 48%;
+    }
+
+    .icon {
+        max-width: 557px;
+    }
+
+    .secondinputparent {
+        max-width: 500px;
+    }
+
+    .lastspan p {
+        font-size: 15px;
+    }
+
+    .checkspan {
+        font-size: 16px;
+    }
+
+    .secondinputparent {
+        font-size: 16px;
+    }
+
+    .firstinputparent span {
+        font-size: 16px;
+    }
+
+    .forgetpass span {
+        font-size: 14px;
+    }
+
+    .signup p {
+        font-size: 14px;
+    }
+
+    .forgetpass {
+        justify-content: center;
+        max-width: 499px;
+    }
+
+    .signup {
+        max-width: 500px;
+    }
+    .allparent {
+        justify-content: center;
+        gap: 100px;
+    }
+}
+@media screen and (max-width: 1133px) {
+    .ilclass ul {
+        font-size: 13px;
+        gap: 25px;
+    }
+
+    main {
+        padding: 50px 0;
+    }
+}
+@media screen and (max-width:1060px) {
+    
+    
+    .logo img {
+        width: 100px;
+        height: 39px;
+    }
+    .logo {
+        width: 83%;
+    }
+    .rightpicture img {
+        width: 22px;
+        height: 22px;
+    }
+    .rightparent span {
+        font-size: 14px;
+    }
+
+    .ilclass ul {
+        gap: 24px;
+        font-size: 14px;
+    } 
+} 
+ 
+@media screen and (max-width:1000px) {
+
+.lastspan p {
+    font-size: 14px;
+   }
+
+.rightpicture img {
+    width: 22px;
+    height: 22px;
+    }
+
+.ilclass ul {
+    gap: 21px;
+    font-size: 12px;
+    }
+    form {
+        width: 52%;
+    }
+.emailform {
+    width: 90%;
+    flex-wrap: wrap;
+}
+.allparent {
+    padding-top: 114px; 
+    }
+}
+
+@media screen and (max-width:870px) {
+    .lastspan p {
+        font-size: 13px;
+       }
+    
+    .ilclass ul {
+        font-size: 10px;
+    }
+
+    .allparent {
+        padding-top: 52px;
+    }
+    .margin {
+        justify-content: center;
+        width: 100%;
+    }
+}
+@media screen and (max-width:810px) {
+    .lastspan p {
+        font-size: 11px;
+       }
+    
+    .ilclass ul {
+        display: none;
+        }
+    
+
+    .menuimg {
+        display: block;
+        }   
+
+    .menuimg img {
+        width: 55px;
+        }
+
+    .rightparent {
+        display: none;
+        }
+
+    .bordertop {
+        display:none;
+        }
+        
+}
+
+@media screen and (max-width:700px) {
+    .lastspan p {
+        font-size: 11px;
+       }
+       .lastspan span {
+        font-size: 8px;
+    }
+
+    form {
+        width: 75%;
+    }
+    .menuimg img {
+         width: 40px;
+    }
+
+   
+
+  span {
+    font-size: 14px;
+  }
+  .parentsecond {
+    display: flex;
+    /* justify-content: center; */
+  }
+  .businesparent {
+    justify-content: center;
+  }
+
+.firstallarent {
+    align-items: center;
+    padding-top: 25px;
+    }
+    .parentfirst {
+        /* justify-content: center; */
+        display: flex;
+    }
+
+    .threeparent {
+        display: flex;
+        justify-content: center;
+    }
+
+    .size {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:560px) {
+    .lastspan p {
+        font-size: 9px;
+    }
+
+    
+}
+
+
+@media screen and (max-width:500px) {
+    .allparent {
+        width: 92%;
+    }
+  
+    .signup p {
+        font-size: 12px;
+    }
+
+    .forgetpass span {
+        font-size: 12px;
+    }
+
+    .checkspan {
+        font-size: 12px;
+    }
+
+    .secondinputparent {
+        font-size: 12px;
+    }
+
+    .firstinputparent span {
+        font-size: 12px;
+    }
+
+    .span {
+        padding-top: 20px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:410px) {
+    
+    .lastspan p {
+        font-size: 7px;
+    }  
+    form {
+        width: 80%;
+    }
+}
+
+
+.footer
+ {
+    background-image: url('images/11B17B81 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}

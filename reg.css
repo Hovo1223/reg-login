@@ -1,0 +1,622 @@
+.create  {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    color: white;
+}
+
+main {
+    padding-bottom: 40px;
+    padding-top: 106px;
+    /* padding-bottom: 61px; */
+    justify-content: space-between;
+    display: flex;
+}
+
+.alredy {
+    gap: 10px;
+    height: 64px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #991B1F;
+
+}
+
+.login {
+    color: white;
+    text-decoration: underline;
+}
+
+.parentcreatealredy {
+    width: 85%;
+}
+
+label {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(222, 222, 222, 1);
+    height: 28px;
+
+}
+
+.firstname {
+    max-width: 259px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    width: 85%;
+    margin-left: auto;
+}
+
+.firstinput {
+    color: white;
+    padding: 20px;
+    height: 56px;
+    border-radius: 32px;
+    border: 1px solid rgba(222, 222, 222, 1);
+    background-color: #3B3738;
+}
+
+.lastname {
+    width: 100%;
+    max-width: 259px;
+    display: flex;
+    flex-direction: column;
+}
+
+.secondinput {
+    height: 56px;
+    border: 1px solid rgba(222, 222, 222, 1);
+    border-radius: 32px;
+    background-color: #3B3738;
+}
+.parentfordisplayflex {
+    gap: 16px;
+    display: flex;
+    height: 108px;
+}
+
+.emailregistration {
+    display: flex;
+    flex-direction: column;
+    height: 108px;
+}
+
+.emailinput {
+    max-width: 534px;
+    width: 100%;
+    height: 56px;
+    border-radius: 32px ;
+    background-color: #3B3738;
+    border: 1px solid rgba(222, 222, 222, 1);
+}
+
+.Password {
+    max-width: 259px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.passinput {
+    width: 100%;
+    height: 56px;
+    border-radius: 32px;
+    background-color: #3B3738;
+    border: 1px solid rgba(222, 222, 222, 1)
+}
+
+.confirmpassinput {
+    width: 100%;
+    height: 56px;
+    border-radius: 32px;
+    background-color: #3B3738;
+    border: 1px solid rgba(222, 222, 222, 1)
+}
+.confirmpass {
+    max-width: 259px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.passwordinputregparent {
+    height: 92px;
+    gap: 16px;
+    display: flex;
+}
+
+.use8or {
+    display: flex;
+    height: 36px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(222, 222, 222, 1);
+}
+
+.showpassword {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+}
+.checkboxandspanparent {
+    height: 64px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.checkboxlog {
+    height: 24px;
+    width: 24px;
+}
+
+.logininstead {
+    width: 19%;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(222, 222, 222, 1);
+    text-decoration: underline;
+}
+
+.buttonlogin {
+    cursor: pointer;
+    width: 259px;
+    height: 64px;
+    border-radius: 32px ;
+    background: rgba(153, 27, 31, 1);
+    border: none;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    text-align: center;
+    color: rgba(222, 222, 222, 1);
+}
+
+.loginandbuttonparent {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    gap:174px
+}
+
+.allparents {
+    width: 84%;
+    padding-left: 200px;
+}
+
+.mapcar {
+    transform: translate(-50%, -50%);
+    width: 50%;
+    top: 43%;
+    left: 62%;
+    position: absolute;
+}
+
+.mapworld {
+    position: relative;
+    Opacity:50%;
+    mix-blend-mode:Luminosity
+}
+
+.red {
+    width: 24px;
+    height: 24px;
+}
+
+  /* Hide the browser's default checkbox */
+
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    /* display: none; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: rgba(153, 27, 31, 1);
+  }
+  
+  .container input.white:checked ~ .checkmark:after {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+  }
+  .container input.black:checked ~ .checkmark:after {
+    border: solid #000;
+    border-width: 0 3px 3px 0;
+  }
+  .container input.red:checked ~ .checkmark:after {
+    border: solid  rgba(59, 55, 56, 1);
+    border-width: 0 3px 3px 0;
+  }
+  .container input.green:checked ~ .checkmark:after {
+    border: solid #1f4f12;
+    border-width: 0 3px 3px 0;
+  }
+
+  .container {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .red {
+    width: 24px;
+    height: 24px;
+  }
+
+  .checkparent {
+    display: flex;
+    gap: 8px;
+  }
+
+.mapparent {
+    bottom: 100px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+
+label {
+    font-family: Poppins;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: rgba(153, 27, 31, 1);
+  }
+  
+  .container input.white:checked ~ .checkmark:after {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+  }
+  .container input.black:checked ~ .checkmark:after {
+    border: solid #000;
+    border-width: 0 3px 3px 0;
+  }
+  .container input.red:checked ~ .checkmark:after {
+    border: solid #3B3738;
+    border-width: 0 3px 3px 0;
+  }
+  .container input.green:checked ~ .checkmark:after {
+    border: solid #1f4f12;
+    border-width: 0 3px 3px 0;
+  }
+  .container input.yellow:checked ~ .checkmark:after {
+    border: solid #c6c253;
+    border-width: 0 3px 3px 0;
+  }  
+
+@media (max-width: 1840px){
+
+    .loginandbuttonparent {
+        gap: 149px;
+    }
+
+
+    .buttonlogin {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1770px){
+    .logininstead {
+        width: 28%;
+    }
+
+    .use8or {
+        font-size: 12px;
+    }
+
+    .allparents {
+        width: 84%;
+        padding-left: 172px;
+    }
+}
+
+@media (max-width: 1610px){ 
+    .allparents {
+        padding-left: 105px;
+    }  
+    .mapworld {
+        height: 600px;
+    }
+
+    .mapcar {
+        bottom: 410px;
+    }
+
+    .use8or {
+        font-size: 10px;
+    }
+    .mapparent {
+        bottom: 0px;
+    }   
+}
+
+@media (max-width: 1640px){
+    .logininstead {
+        width: 35%;
+    }
+    
+    .buttonlogin {
+        font-size: 15px;
+    }
+    .container {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1400px){
+    .mapcar {
+        right: 60px;
+    }
+
+    .logininstead {
+        width: 60%;
+    }
+
+    .container {
+        font-size: 18px;
+    }
+    .loginandbuttonparent {
+        gap: 25px;
+    }
+
+    .buttonlogin {
+        font-size: 13px;
+    }
+
+}
+
+@media (max-width: 1290px){
+    label {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1270px){
+    .loginandbuttonparent {
+        gap: 205px;
+    }
+    .mapparent {
+        display: none;
+    }
+.use8or {
+        font-size: 13px;
+    }
+    .allparents {
+        width: min-content;
+        margin: auto;
+        padding: 0;
+    }
+    .loginandbuttonparent {
+        justify-content: space-between;
+        width: 100%;
+        max-width: 550px;
+    }
+    .logininstead {
+        width: 33%;
+    }
+
+    form {
+        width: 100%;
+        margin: 0;
+    }
+
+    .parentcreatealredy {
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    .alredy {
+        display: flex;
+    }
+
+    .buttonlogin {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1170px){
+    form {
+        width: 100%;
+        margin: 0;
+    }
+    .parentcreatealredy {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+
+@media (max-width: 600px){
+    .container {
+        font-size: 13px;
+    }
+    .allparents {
+        width: 90%;
+    }
+}
+@media (max-width: 500px){
+    .loginandbuttonparent {
+        gap: 90px;
+    }
+
+    .allparents {
+        width: 80%;
+    }
+    .use8or {
+        font-size: 11px;
+    }
+
+    label {
+        font-size: 12px;
+    }
+    .logininstead {
+       font-size: 11px; 
+       width: 50%;
+    }
+    .buttonlogin {
+        height: 47px;
+        font-size: 9px;
+    }
+    .create {
+        font-size: 28px;
+    }
+
+    .alredy {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 460px){
+    .use8or {
+        font-size: 10px;
+    }
+    .logininstead {
+        font-size: 9px;
+    }
+    .use8or {
+        font-size: 9px;
+    }
+    label {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 400px){
+    .buttonlogin {
+        font-size: 9px;
+    }
+    .logininstead {
+        font-size: 10px;
+    }
+    .use8or {
+        font-size: 8px;
+    }
+}
+
+input {
+    color: white;
+    padding: 20px;
+}
+

@@ -1,0 +1,383 @@
+.secondform {
+    width: 100%;
+    height: 233px;
+}
+
+.parentsecond {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: rgba(255, 255, 255, 1);
+    height: 60px;
+}
+
+.seconddiv {
+    font-family: Poppins;
+    color: rgba(255, 255, 255, 1);
+    width: 451px;
+}
+
+.contactspan {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.contact {
+    background: aliceblue;
+    width: 96px;
+    height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact img {
+    width: 32px;
+    height: 32px;
+}
+
+.parentfirst {
+    width: 330px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: white;
+    height: 60px;
+}
+.contactspans {
+    justify-content: end;
+    flex-direction: column;
+    display: flex;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+}
+.allparents {
+    margin-left: 320px;
+    align-items: baseline;
+    justify-content: space-between;
+    /* margin: 0 auto; */
+    width: 68%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contactpsanparent {
+    
+    display: flex;
+    gap: 24px;
+}
+
+.firstallarent {
+display: flex;
+flex-direction: column;
+}
+
+.spans  {
+    display: flex;
+    flex-direction: column;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: white;
+
+}
+.businesparent {
+    display: flex;
+    gap: 16px;
+}
+.display {
+    height: 43px;
+    display: flex;
+    gap: 79px;
+}
+.display2 {
+    display: flex;
+    gap: 102px;
+}
+.threeparent {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: white;
+    height: 60px;
+
+
+}
+
+.height {
+    height: 38px;
+}
+
+.docum {
+    display: flex;
+    flex-direction: column;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: white;
+}
+
+.galery {
+    display: flex;
+    flex-direction: column;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: white;
+}
+
+.on {
+    /* position: relative; */
+    display: flex;
+    gap: 24px;
+}
+
+.vectors {
+    margin-right: 210px;
+    /* margin-left: 320px; */
+    padding-top: 50px;
+    padding-bottom: 24px;
+    gap: 21px;
+    margin-left: 320px;
+    display: flex;
+    height: REVERT;
+    border-bottom: 2px solid;
+    /* width: 68%; */
+    border-color: white;
+}
+
+.vectors img {
+    cursor: pointer;
+}
+
+.last {
+    align-items: center;
+    height: 61px;
+    justify-content: center;
+    display: flex;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.07px;
+    color: white;
+}
+
+.contactspans span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.on span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(167, 147, 147);
+}
+
+
+.parentfirst {
+    display: flex;
+}
+
+.menuimg {
+    display: none;
+}
+
+.rightpicture {
+    display: flex;
+}
+
+footer {
+    background-position: bottom;
+    background-position: right top;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: #991B1F;
+    height: auto;
+    width: 100%;
+    background-image: url('images/11B17B81 1.png');
+}
+
+.emailform input {
+    padding: 17px;
+    border: none;
+    border-top-left-radius: 7px;
+    width: 65%;
+    border-bottom-left-radius: 7px;
+
+}
+
+.emailform {
+    align-items: center;
+    padding-top: 92px;
+    gap: 43px;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+.emailform button {
+    border: none;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    height: 52px;
+    color: rgba(153, 27, 31, 1);
+    width: 140px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    font-size: 13px;
+} 
+
+.firstdiv {
+    height: 100%;
+    width: 100%;
+    max-width: 408px;
+    display: flex;
+}
+
+.margin {
+    width: 231px;
+    /* padding-left: 12%; */
+    display: flex;
+    gap: 21px;
+    justify-content: end;
+}
+
+.container {
+    right: 0px;
+    bottom: 73px;
+    position: absolute;
+}
+
+@media screen and (max-width:1500px){
+    .margin {
+        width: 201px;
+    }
+    .allparents {
+        margin-left: 100px;
+        width: 84%;
+    }    
+
+    .vectors {
+        margin-left: 136px;
+        margin-right: 129px;
+    }
+
+    .container {
+        width: 500px;
+        top: 0;
+    }
+
+    .span {
+        font-size: 18px;
+        padding-top: 20px;
+    }
+}
+ @media screen and (max-width:1294px) {
+    .vectors {
+        margin-left: 109px;
+        margin-right: 72px;
+    }
+
+    .allparents{
+        gap: 50px;
+    }
+    .margin {
+        width: 115px;
+    }
+ }
+ 
+@media screen and (max-width:1200px) {
+
+    form {
+        width: 48%;
+    }
+
+    footer {
+    background-size: 500px;
+}
+}
+ 
+@media screen and (max-width:1000px) {   
+    form {
+        width: 52%;
+    }
+    .emailform {
+        width: 90%;
+        flex-wrap: wrap;
+    }
+    .allparents {
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        padding-top: 70px;
+    }
+    .vectors {
+        margin-left: 80px;
+    }
+    .container {
+        width: 400px;
+    }
+    .margin {
+        width: 163px;
+    }
+}
+
+@media screen and (max-width:870px) {
+
+    .margin {
+        justify-content: center;
+        width: 100%;
+    }
+    .vectors {
+        margin-left: 69px;
+    }
+}
+
+
+@media screen and (max-width:700px) {
+    form {
+        width: 75%;
+    }
+  span {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:500px) {
+    .span {
+        padding-top: 20px;
+        font-size: 14px;
+    }
+    
+    .container {
+        width: 150px;
+    }
+
+    footer {
+        background-size: 360px;
+    }
+}
+
+@media screen and (max-width:410px) {
+    form {
+        width: 80%;
+    }
+}
+

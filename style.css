@@ -1,0 +1,518 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+background-color: rgba(32, 32, 32, 1);
+height: 160px;
+    
+}
+
+.ourparent {
+    
+height: 100%; 
+display: flex;
+align-items: center;
+
+}
+.logo {
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 70%;
+}
+
+.logo img {
+height: 75px;
+width: 14.6%;
+}
+
+.bordertop {
+    display: flex;
+    border-top:solid 1px;
+    border-color: rgba(255, 255, 255, 1);
+    color: white;
+}
+
+.ilclass ul  {
+    font-family: 'Poppins';
+    padding-top: 5px;
+    list-style-type: none;
+    gap: 70px;
+    display: flex;
+}
+
+.rightparent span {
+    color: white;
+}
+
+
+.rightpicture img{
+    width: 33px;
+    height: 33px;
+}
+
+main {
+ background-color: #3B3738;
+}
+
+.newform h1 {
+    font-family: 'Poppins';
+    height: 50px;
+    width: 100%;
+    line-height: 48px;
+    font-weight: 500;
+    font-size: 32px;
+    color: white;
+}
+
+.newform {
+    display: flex;
+    padding-top: 106px;
+}
+
+.logoimg {
+height: 75px;
+width: 14.6%;
+}
+
+
+.ilclassul  {
+    padding-top: 5px;
+    list-style-type: none;
+    gap: 70px;
+    display: flex;
+}
+
+.newformh1 {
+    height: 50px;
+    width: 43%;
+    line-height: 48px;
+    font-weight: 500;
+    font-size: 32px;
+    color: white;
+}
+
+.redspanp{
+color: rgba(153, 27, 31, 1);
+}
+
+.redspanspan {
+    text-decoration: underline;
+    color: white;
+}
+
+
+.lastname {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+    input {
+    color: white;
+    width: 100%;
+    border-color: white;
+    background: #3B3738;
+    height: 56px;
+    border-radius: 32px;
+}
+
+.checkspan {
+    color: white;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 100%;
+}
+
+.checkinput {
+    
+    width: 24px;    
+}
+
+.buttonbutton{
+    width: 259px;
+    height: 64px;
+    border-radius: 32px;
+    background: rgba(153, 27, 31, 1);
+    border: none;color: white;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    text-align: center;
+
+}
+
+.redspan {
+height: 60px;
+}
+.redspan p{font-family: 'Poppins';color: rgba(153, 27, 31, 1);}
+
+.redspan span {
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+}
+
+.formall {
+    max-width: 534px;
+    width: 100%;
+    gap: 16px;
+    display: flex;
+}
+
+.firstname {
+    max-width: 292px;
+    height: 93px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.lastname {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+ label {
+    font-family: 'Poppins';
+    height: 27px;
+    color: white;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+input {
+    color: white;
+    width: 100%;
+    border-color: white;
+    background: #3B3738;
+    height: 56px;
+    border-radius: 32px;
+}
+
+.parentform {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+}
+
+.secondtext {
+    max-width: 535px;
+    height: 107px;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+}
+
+.secondspan {
+    display: flex;
+    align-items: end;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(222, 222, 222, 1);
+}
+
+.check span {
+    color: white;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.check {
+    gap: 8px;
+    align-items: center;
+    display: flex;
+}
+
+.check input {
+    
+    width: 24px;    
+}
+
+.create {
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    align-items: center;
+    display: flex;
+    height: 142px;
+}
+
+.button button{
+    width: 259px;
+    height: 64px;
+    border-radius: 32px;
+    background: rgba(153, 27, 31, 1);
+    border: none;
+    color: white;
+    font-family: Poppins;
+font-size: 22px;
+font-weight: 500;
+line-height: 33px;
+text-align: center;
+
+}
+
+
+.usa {
+    left: 413px;
+    position: absolute;
+    top: 151px;
+}
+
+
+form {
+    padding-left: 260px;
+    align-items: unset;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+}
+
+.spanform {
+    display: flex;
+}
+
+.rightparent {
+    display: flex;
+    align-items: center;
+    gap: 39px;
+}
+
+.menuimg {
+    display: none;
+}
+@media  (max-width: 1850px){
+   .map img {
+    height: 400px;
+    width: 600px;
+   } 
+   .usa img {
+    height: 300px;
+    top: 0px;
+    width: 271px;
+    right: 115px;
+   }
+
+   .ilclass ul {
+    gap: 45px;
+   }
+
+   
+   
+    .usa {
+        left: 232px;
+        top: 22px;
+   }
+}
+.createclass {
+    width: 284px;
+}
+
+.map {
+    position: relative;
+}
+
+@media screen and (max-width:1500px){
+    .ilclass ul {
+        font-size: 14px;
+        gap: 35px;
+    }
+    .logo {
+        width: 68%;
+    }
+}
+
+@media screen and (max-width:1400px){
+    form {
+        padding-left:100px;
+    }
+
+    .ilclass ul {
+        gap: 30px;
+        font-size: 14px;
+    }
+    .logo {
+        width: 85%;
+    }
+
+}
+
+@media screen and (max-width:1300px) {
+    .map img {
+        width: 400px;
+    }
+
+    .usa {
+        left: 135px;
+    }
+    .usa img {
+        height: 265px;
+        width: 264px;
+    }
+    .logo img {
+        height: 55px;
+        width: 12.6%;
+    }
+
+    .rightpicture img {
+        width: 33px;
+        height: 33px;
+
+    }
+    .rightparent span {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:1060px) {
+    .map {
+        display: none;
+    }
+
+    form {
+        align-items: center;
+        padding-left: 0;
+    }
+    .logo img {
+        height: 39px;
+        width: 17%;
+    }
+    .logo {
+        width: 90%;
+    }
+    .rightpicture img {
+        width: 22px;
+        height: 22px;
+    }
+    .rightparent span {
+        font-size: 14px;
+    }
+
+    .ilclass ul {
+    gap: 24px;
+    font-size: 14px;
+    }
+
+    .logo img {
+        width: 12%;
+    }
+    .rightpicture img {
+        width: 22px;
+    }
+}
+
+
+
+@media screen and (max-width:900px) {
+    
+.rightparent span {
+    font-size: 14px;
+}
+
+.rightpicture img {
+    width: 22px;
+    height: 22px;
+}
+
+.ilclass ul {
+    gap: 26px;
+    font-size: 11px;
+}
+
+.ourparent {
+    width: 100%;
+}
+
+}
+
+@media screen and (max-width:800px) {
+.ilclass ul {
+    display: none;
+}
+
+
+.menuimg {
+    display: block;
+}
+
+.menuimg img {
+    width: 55px;
+}
+.rightparent {
+    display: none;
+}
+
+.bordertop {
+    display:none;
+}
+    }
+
+ @media screen and (max-width:600px) {
+    .button button {
+        width: 195px;
+        font-size: 15px;
+    }
+
+    .secondspan {
+        font-size: 13px;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    .logo img {
+        width: 19%;
+    }
+    .menuimg img {
+        width: 40px;
+    }
+ }
+
+
+
+ @media screen and (max-width:500px) {
+    .createclass {
+        width: 130px;
+    }
+    .secondspan {
+        font-size: 10px;
+    }
+
+    .logo img {
+        width: 22%;
+    }
+
+    .menuimg img {
+            width: 50px;
+        
+    }
+}
+
+@media screen and (max-width:365px) {
+    .secondspan {
+        font-size: 9px;
+    }
+}
+ 
