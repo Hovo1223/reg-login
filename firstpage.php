@@ -72,7 +72,7 @@ mysqli_close($link);
                 <li>Services</li>
                 <li>Countries</li>
                 <li>News</li>
-                <li>Gallery</li>
+                <li><a href='galleryback.php'> Gallery</a></li>
                 <li>Career</li>
                 <li>Document</li>
             </ul>

@@ -1,0 +1,42 @@
+.vernagir {
+    font-family: Geometr415 Blk BT;
+    font-size: 40px;
+    color: rgba(153, 27, 31, 1);
+
+}
+.formfile {
+    padding: 0;
+}
+.galery {
+    width: 100%;
+    background-color: rgba(217, 217, 217, 1);
+}
+
+.parent { 
+    padding-top: 98px;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.form-control {
+    width: 100%;
+    background: 0;
+    border: 0;
+    border-radius: 0;
+    color: black;
+}
+
+.sub{
+    border: 0;
+    color: white;
+    background: red;
+    height: 45px;
+    width: 200px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}

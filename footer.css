@@ -213,12 +213,14 @@ footer {
 }
 
 .emailform input {
+    height: 52px;
+    border-radius: 0;
+    background: rgba(255, 255, 255, 1);
     padding: 17px;
     border: none;
     border-top-left-radius: 7px;
     width: 65%;
     border-bottom-left-radius: 7px;
-
 }
 
 .emailform {

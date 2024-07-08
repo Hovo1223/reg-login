@@ -112,15 +112,7 @@ color: rgba(153, 27, 31, 1);
     flex-direction: column;
 }
 
-    input {
-    color: white;
-    width: 100%;
-    border-color: white;
-    background: #3B3738;
-    height: 56px;
-    border-radius: 32px;
-}
-
+  
 .checkspan {
     color: white;
     font-family: Poppins;

@@ -134,6 +134,16 @@ body {
     color: rgba(255, 255, 255, 1);
 }
 
+ul li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+ul li a:hover {
+    color: #991B1F;
+}
+
 .buttons {
     cursor: pointer;
     width:225px;
